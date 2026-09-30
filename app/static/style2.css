@@ -1,0 +1,28 @@
+body{
+    background-color: #253046;
+    color: white;
+    font-family: "garamond";
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+button{
+    all: unset;
+    cursor: pointer;
+}
+
+input{
+    background: transparent;
+    font-size: 15px;
+    font-family: "garamond";
+    border: 1px solid white;
+    color: white;
+}
+
+input::placeholder{
+    color: white;
+}

@@ -1,0 +1,13 @@
+[
+    {
+        "joinId":1,
+        "userId":1,
+        "postId":2
+    },
+
+    {
+        "joinId":2,
+        "userId":4,
+        "postId":2
+    }
+]

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="/static/favicon.png">
+    <link rel="stylesheet" href="/static/style2.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <button id="signupbutton" onclick="signup()" style="position: fixed; width: 100%; text-align: center; top: 25%;">CREATE AN ACCOUNT</button>
+            <a hidden id="message" style="position: fixed; width: 100%; text-align: center; top: 25%;">ACCOUNT CREATED</button>
+            <a id="signup" style="position: fixed; width: 100%; text-align: center; top: 27%;" hidden>Your data: username is (), password is ().</a>
+            <a style="position: fixed; width: 100%; text-align: center; top: 45%;">OR</a>
+        </div>
+        <div class="row" style="position: fixed; width: 100%; text-align: center; top: 65%;">
+            <input type="text" id="username" placeholder="USERNAME" required>
+            <input type="password" id="password" placeholder="PASSWORD" required>
+            <button class="button" onclick="login()">LOG IN</button>
+            <a id="incorrect" hidden>INCORRECT USERNAME OR PASSWORD</a>
+        </div>
+        <!--<div class="row" style="position: fixed; width: 100%; text-align: center; top:80%;">
+            <a>By logging in, you agree to our <a href="/static/t&c.html"><u>Terms and Conditions and Privacy Policy</u></a></a>
+        </div>
+        <div class="row" style="position: fixed; width: 100%; text-align: center; top:86%;">
+            <a href="/static/documentation.html"><u>Documentation</u></a>
+        </div>-->
+        <div class="row" style="position: fixed; bottom: -1%; left: 0; width: 100%; text-align: center;">
+            <p style="font-size: 18px;">&copy; 2026 Seplebis</p>
+        </div>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
+
+
+
+
+<!--
+        <div class="row" style="position: fixed;">
+            <button>CREATE AN ACCOUNT</button>
+        </div>
+        <div class="row">
+            <a style="position: fixed;">Your data: username is (), password is ().</a>
+        </div>
+-->

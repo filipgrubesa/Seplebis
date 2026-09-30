@@ -1,0 +1,62 @@
+body{
+    background-color: #253046;
+    color: white;
+    font-family: "garamond";
+    margin: 0 8.75%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: 20% 50% 24% 6%;
+    height: 100svh;
+    align-items: center;
+}
+
+button{
+    all: unset;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    transition: text-shadow 2s ease-in-out;
+}
+
+input{
+    align-items: center;
+    all: unset;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button.glow{
+    text-shadow: 0 0 30px rgba(255, 255, 255, 1);
+}
+
+#post-input{
+    font-weight: bold;
+    font-family: "garamond";
+    text-align: justify;
+    background: transparent;
+    border: none;
+    outline: none;
+    resize: none;
+    width: 100%;
+    height: 90%;
+    color: inherit;
+}
+
+#needed-input {
+    display: block;
+    font-size: 32px;
+    font-style: italic;
+    font-family: "garamond";
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
